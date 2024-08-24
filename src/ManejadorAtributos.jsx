@@ -12,7 +12,6 @@ export default function ManejadorAtributos() {
   const handleBoxsizing = (e) => {
     setBoxSizing(e.target.value);
     console.log(boxSizing);
-    console.log("Hola");
   };
 
   return (
